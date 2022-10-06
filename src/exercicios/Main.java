@@ -175,14 +175,7 @@ public class Main {
 		Televisor tv = new Televisor();
 		int comando=0;
 		do {
-			System.out.println(" _______________\r\n"
-					+ "|,----------.  |\\\r\n"
-					+ "||           |=| |\r\n"
-					+ "||          || | |\r\n"
-					+ "||       . _o| | | __\r\n"
-					+ "|`-----------' |/ /~/\r\n"
-					+ " ~~~~~~~~~~~~~~~ / /\r\n"
-					+ "                 ~~");
+			System.out.println(tv.imagem_televisor());
 			System.out.println("CANAL ATUAL: "+tv.getCanal_atual());
 			System.out.println("VOLUME: "+tv.getVolume());
 			System.out.println("COMANDO (0 para sair) 1.mudar canal (faixa 0-2) 2.Volume:");

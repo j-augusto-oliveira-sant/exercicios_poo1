@@ -20,6 +20,20 @@ public class Televisor {
 			this.volume = 0;
 		}
 	}
+	
+	public String imagem_televisor() {
+		StringBuilder imagem = new StringBuilder();
+		imagem.append(" _______________\r\n");
+		imagem.append("|,----------.  |\\\r\n");
+		imagem.append("||           |=| |\r\n");
+		imagem.append("||          || | |\r\n");
+		imagem.append("||       . _o| | | __\r\n");
+		imagem.append("|`-----------' |/ /~/\r\n");
+		imagem.append(" ~~~~~~~~~~~~~~~ / /\r\n");
+		imagem.append("                 ~~");
+		return imagem.toString();
+	}
+	
 	public int getVolume() {
 		return volume;
 	}

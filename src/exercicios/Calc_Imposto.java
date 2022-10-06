@@ -21,6 +21,11 @@ public class Calc_Imposto {
 	public void setHoras(double horas) {
 		this.horas = horas;
 	}
+	@Override
+	public String toString() {
+		return "Calc_Imposto [sal_hora=" + sal_hora + ", horas=" + horas + ", SAL_BRUTO=" + SAL_BRUTO + ", IR=" + IR
+				+ ", INSS=" + INSS + ", SIND=" + SIND + "]";
+	}
 	public double getSal_hora() {
 		return sal_hora;
 	}

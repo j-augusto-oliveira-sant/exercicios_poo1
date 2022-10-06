@@ -16,6 +16,5 @@ public class Calcular {
 	}
 	public double subtrai(double n1, double n2) {
 		return n1-n2;
-	}
-	
+	}	
 }
